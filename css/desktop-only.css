@@ -1,0 +1,261 @@
+@media only screen and (min-width: 768px){
+    /* For desktop: */
+
+    .mobile-only{
+        display: none;
+    }
+
+    .desktop-only{
+        display: block;
+    }
+
+    .fs-2{
+        font-size: 16px;
+    }
+
+    .fs-3{
+        font-size: 20px;
+    }
+
+    .fs-4{
+        font-size: 40px;
+        font-weight: 300;
+        letter-spacing: normal;
+    }
+
+    .spacer-small{
+        height: 60px;
+    }
+
+    .spacer-medium{
+        height: 100px;
+    }
+
+    .spacer-large{
+        height: 200px;
+    }
+    
+
+
+    .header-nav-tab{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .header-about-tab{
+        margin-right: 24px;
+    }
+    
+    .header-resume-tab{
+        padding-left: 16px;
+        padding-right: 32px;
+        width: 80px;
+    }
+
+    .header-resume-tab .action-arrow {
+        position: absolute;
+        margin-left: 84px;
+    }
+
+    .header-resume-tab:hover .action-arrow{
+        margin-left: 92px;
+    }
+    
+    .first-fold-top-spacer{
+        height: 232px;
+    }
+
+    .projects-container{
+        width: calc(100% - 48px);
+        max-width: 1136px;
+        margin: auto;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        grid-column-gap: 48px;
+        grid-row-gap: 8px;
+    }
+
+    .project1, .project3{
+        margin-top: 0;
+    }
+
+    .project-card .project-image{
+        padding-top: 66.2%;
+    }
+
+    .project-card .project-text-content{
+        padding-top: 24px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+
+
+    .testimonials-container{
+        display: grid;
+        grid-template-columns: 32px 1fr 32px;
+        justify-content: space-between;
+    }
+    
+    .testimonial-user-images-group{
+        justify-content: center;
+    }
+    
+    .testimonial-user-image{
+        width: 64px;
+        height: 64px;
+    }
+    
+    .testimonial-user-image.active{
+        width: 100px;
+        height: 100px;
+    }
+    .testimonials-container .testimonial-user-details{
+        text-align: center;
+    }
+
+    .testimonials-carousel{
+        padding-bottom: 100px;
+    }
+
+    .testimonials-container .testimonial-content-body{
+        text-align: center;
+    }
+
+
+
+    .email-me-link:hover .action-arrow{
+        margin-left: 12px;
+    }
+
+
+    .footer-section{
+        height: 104px;
+    }
+    
+
+    .footer-section-container{
+        display: flex;
+        flex-flow: row-reverse;
+        align-self: center;
+        justify-content: space-between;
+        padding-bottom: 32px;
+    }
+
+
+    .kitchen-tip{
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    .kitchen-tip-content{
+        margin-top: 0;
+        font-weight: 400;
+    }
+
+    .kitchen-tip-content .desktop-welcome{
+        display: inline;
+    }
+
+    .social-icons{
+        min-width: 360px;
+        text-align: right;
+    }
+
+
+
+
+    /*About Me page CSS starts here*/
+
+    .about-me-first-line-section > .container{
+        display: grid;
+        grid-template-columns: 15fr 7fr;
+        grid-column-gap: 112px;
+        align-items: center;
+    }
+
+    .about-me-first-line-section .text-div{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .about-me-first-line-section .photo-div{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        margin-bottom: 0;
+    }
+
+
+    .about-me-first-line-section .my-profile-photo{
+        width: 100%;
+    }
+
+
+    .about-photos-group{
+        background-image: url('../img/about/about-photos-group.png');
+        padding-top: 60.9%;
+    }
+
+
+
+    .my-story-timeline{
+        display: grid;
+        grid-template-columns: 5fr 19fr;
+        grid-column-gap: 16px;;
+    }
+
+    .timline{
+        margin-top: 8px;
+    }
+    
+    .timline-element{
+        padding-bottom: 80px;
+        border-left: 1px solid #E6E6E6;
+    }
+
+    .timline-element .text-content{
+        margin-top: -24px;
+        padding-left: 40px;
+    }
+
+    .timline-element:last-child .text-content{
+        margin-top: -28px;
+    }
+
+    .food-images-container{
+        width: calc(100% - 48px);
+        max-width: 1136px;
+        margin: auto;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        grid-column-gap: 32px;
+        grid-row-gap: 32px;
+    }
+
+    .food-images-container .food-image{
+        height: 40vw;
+        max-height: 450px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .wide-food-image:nth-child(odd){
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+    .wide-food-image:nth-child(even){
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    
+
+}
