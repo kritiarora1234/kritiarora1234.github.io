@@ -459,10 +459,12 @@ a{
 
 .header-about-tab{
     margin-right: 16px;
+    border: 1px solid #1A1A1A;
 }
 
 .header-about-tab.active{
     background-color: #F5F5F5;
+    border: none;
     border-bottom: 3px solid #1A1A1A;
 }
 
@@ -624,6 +626,7 @@ a{
 .about-me-first-line-section .my-profile-photo{
     border-radius: 100%;
     width: 200px;
+    height: 200px;
 }
 
 .about-photos-group-mobile{
@@ -693,10 +696,12 @@ a{
 
 .food-image:nth-child(2){
     background-image: url("../img/about/food-images/rosemerry-oil.png");
+    background-position-y: 20%;
 }
 
 .food-image:nth-child(3){
     background-image: url("../img/about/food-images/tiramesu.png");
+    background-position-y: 30%;
 }
 
 .food-image:nth-child(4){

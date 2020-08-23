@@ -44,6 +44,7 @@
 
     .header-about-tab{
         margin-right: 24px;
+        border: none;
     }
     
     .header-resume-tab{
@@ -160,7 +161,7 @@
     }
 
     .social-icons{
-        min-width: 360px;
+        min-width: 240px;
         text-align: right;
     }
 
@@ -194,6 +195,7 @@
 
     .about-me-first-line-section .my-profile-photo{
         width: 100%;
+        height: auto;
     }
 
 
