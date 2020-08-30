@@ -508,19 +508,19 @@ a{
 }
 
 .project1 .project-image{
-    background-image: url('../img/homepage/projects/clearquote.png');
+    background-image: url('../img/homepage/projects/clearquote.jpg');
 }
 
 .project2 .project-image{
-    background-image: url('../img/homepage/projects/passon.png');
+    background-image: url('../img/homepage/projects/passon.jpg');
 }
 
 .project3 .project-image{
-    background-image: url('../img/homepage/projects/aroras-business.png');
+    background-image: url('../img/homepage/projects/aroras-business.jpg');
 }
 
 .project4 .project-image{
-    background-image: url('../img/homepage/projects/zomato.png');
+    background-image: url('../img/homepage/projects/zomato.jpg');
 }
 
 .testimonials-container{
@@ -569,15 +569,15 @@ a{
 }
 
 .testimonial-user-image.user1{
-    background-image: url('../img/homepage/testimonials/abu.png');
+    background-image: url('../img/homepage/testimonials/abu.jpg');
 }
 
 .testimonial-user-image.user2{
-    background-image: url('../img/homepage/testimonials/venkat.png');
+    background-image: url('../img/homepage/testimonials/venkat.jpg');
 }
 
 .testimonial-user-image.user3{
-    background-image: url('../img/homepage/testimonials/sharath.png');
+    background-image: url('../img/homepage/testimonials/sharath.jpg');
 }
 
 
@@ -630,7 +630,7 @@ a{
 }
 
 .about-photos-group-mobile{
-    background-image: url("../img/about/about-photo-mobile.png");
+    background-image: url("../img/about/about-photo-mobile.jpg");
     padding-top: 60.9%;
 }
 
@@ -691,19 +691,19 @@ a{
 }
 
 .food-image:nth-child(1){
-    background-image: url("../img/about/food-images/grilled-cheese.png");
+    background-image: url("../img/about/food-images/grilled-cheese.jpg");
 }
 
 .food-image:nth-child(2){
-    background-image: url("../img/about/food-images/rosemerry-oil.png");
+    background-image: url("../img/about/food-images/rosemerry-oil.jpg");
     background-position-y: 20%;
 }
 
 .food-image:nth-child(3){
-    background-image: url("../img/about/food-images/tiramesu.png");
+    background-image: url("../img/about/food-images/tiramesu.jpg");
     background-position-y: 30%;
 }
 
 .food-image:nth-child(4){
-    background-image: url("../img/about/food-images/italian-salad.png");
+    background-image: url("../img/about/food-images/italian-salad.jpg");
 }
